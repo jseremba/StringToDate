@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="StringToDate.widget.StringToDate" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>StringToDate</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="date" type="attribute">
+            <caption>Date</caption>
+            <category>Appearance</category>
+            <description>The date to update</description>
+            <attributeTypes>
+                <attributeType name="DateTime" />
+            </attributeTypes>
+        </property>
+        <property key="dateFormat" type="string">
+            <caption>Date Format</caption>
+            <category>Appearance</category>
+            <description>Format of the Date to match</description>
+        </property>
+        <property key="default2000" type="boolean" defaultValue="false">
+            <caption>Default to 2000</caption>
+            <category>Appearance</category>
+            <description>If true, a two digit year will start 2000.  If false, two digit year will start at 1900.</description>
+        </property>
+    </properties>
+</widget>
+
