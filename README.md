@@ -1,6 +1,6 @@
 # String to Date Widget
 
-This widget allows you to set a specific template for dates (i.e. d:m:yy) for date entry.  If the template is matched,
+This widget allows you to set a specific template for dates (i.e. d: m :yy) for date entry.  If the template is matched,
 the date will be set accordingly. 
 
 ## Contributing
